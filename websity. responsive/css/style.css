@@ -1,0 +1,129 @@
+*,
+::after,
+::before{
+           box-sizing: border-box;
+           padding: 0;
+           margin: 0;
+}
+:root{
+           font-size: 10px;
+}
+li{
+           list-style: none;
+}
+a{
+           text-decoration: none;
+}
+.row{
+           display: flex;
+}
+.col{
+           flex: 1;
+}
+.continer{
+           padding: 0 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+header{
+           min-height: 7rem;
+}
+nav{
+           align-items: center;
+           padding: 2rem 0;
+           display: flex;
+           justify-content: space-between;
+}
+.logo__title{
+           font-size: 2.8rem;
+           color: black;
+           text-transform: capitalize;
+}
+.nav__menu{
+           display: flex;
+}
+.nav__item{
+           padding: 0 1.5rem;
+
+}
+.nav__link{
+           font-size: 1.8rem;
+           color: #004A43;
+}
+.auth a{
+           font-size: 1.8rem;
+           padding-left:1.5rem;
+           cursor: pointer;
+           color:#7D77FC;
+}
+.btn__orange{
+    font-weight: 700 bold;
+    background-color: #FFAD3D;
+    color: #004A43;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+
+
+
+
+
+.main{
+           background-color: #F1F6F6;
+           padding-top: 8rem;
+}
+.main__title{
+           width: 70%;
+           font-weight: 700;
+           font-size: 4.2rem;
+           line-height: 72px;
+           color: #004A43;
+}
+.main__suptitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 33px;
+    color: #345E5A;
+    width: 90%;
+}
+.btn__main{
+    padding: 1.5rem 10rem;
+    margin-top: 15px;
+}
+.main__subtitle{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #345E5A;
+}
+.main__text__brend {
+    margin-top: 15px;
+    padding: 5rem 0;
+}
+.text__brand__p{
+    text-align: center;
+    font-weight: 700;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #5C9992;
+}
+main .row:nth-child(2){
+    justify-content: space-between;
+}
+.main__img{
+    width: 100%;
+}

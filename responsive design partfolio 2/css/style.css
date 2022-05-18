@@ -1,0 +1,360 @@
+@font-face {
+    font-family: Open Sans ;
+    src: url(../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: monserat ;
+    src: url(../assets/fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 8px;
+}
+body{
+    font-family:Open Sans;
+}
+.container{
+    margin: 0 13rem;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+ul{
+    list-style:none ;
+}
+a{
+    text-decoration: none;
+}
+.btn__open{
+    background: #F7859C;
+    border-radius: 12px;
+    padding: 1rem 3rem; 
+    border: 1px solid transparent;
+    color: #fff;  
+}
+
+
+/* ============ HEADER ============ */
+header{
+    height: 10vh;
+}
+nav {
+    margin: 0 6.5rem;
+    display: flex;
+    align-items: center;
+}
+.nav__menu{
+    display: none;
+    margin-left: auto;
+}
+.nav__item{
+    margin-right: 3rem;
+}
+.nav__link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.5rem;  
+    color: #222222;    
+}
+/* ============ AND OF HEADER ============ */
+
+
+/* ============ AHERO ============ */
+/* .main__baner{
+    background-image: url(../assets/bg-img/bg-img-right.png);
+    background-position: left bottom;
+    background-size: 50rem ;
+    background-repeat: no-repeat;
+} */
+.hero{
+    height: 90vh;
+    padding-top: 10rem;
+    padding-bottom: 100rem;
+    background-image: url(../assets/bg-img/hero__left__img.png);
+    /* background-position: right top; */
+    background-position:bottom center ;
+    background-size: 50rem ;
+    background-repeat: no-repeat;
+}
+.auth{
+    margin-left: auto;
+}
+.hero__content{
+    text-align: center;
+}
+.super__subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.5rem;  
+    color: #222222;
+    
+}
+.title{
+    font-family: monserat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.7rem;
+    line-height: 8.7rem;
+    color: #222222;    
+}
+.suptitle{
+    padding-top: 4.5rem;
+    margin: auto;
+    max-width:43rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem; 
+    color: #404756;    
+}
+.hero__btn{
+    margin-top: 3rem;
+}
+/* ============ AND OF HERO ============ */
+
+
+/* ============ COLLECTION ============ */
+.collection{
+    padding : 10rem 0;
+}
+.collection__wrapper{
+    text-align: center;
+}
+.collection__content{
+    margin-top: 14rem;
+
+}
+.collection__col__wrapper{
+    margin-top: 3.5rem;
+}
+
+.collection__title{
+    font-family: monserat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.5rem;
+    line-height: 5.8rem;   
+    color: #222222;    
+}
+.collection__col__title{
+    font-family: monserat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.2rem;   
+    color: #222222;   
+}
+.collection__col__suptitle,
+.collection__col__subtitle{
+    position: relative;
+    margin-top: 1.7rem;
+    padding-bottom: 1rem;
+    max-width: 33rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;   
+    color: #404756;
+}
+.collection__col__subtitle::after{
+    content: '';
+    position: absolute;
+    top: 12rem;
+    bottom: 0;
+    left: 0;
+    height: 0.2rem;
+    width: 33rem;
+    background: rgba(64, 71, 86, 0.6);
+}
+.right-col{
+    display: none;
+    height: 70rem;
+    position: relative;
+
+}
+.ratiry__columin{
+    display: flex;
+    flex-direction: column;
+}
+.Frame__img{
+    position: absolute;
+    top: 0;
+    right: -10rem;
+}
+.Frame__img2{
+    z-index: 1;
+    position: absolute;
+    top:20rem ;
+    right: -10rem;
+}
+.Frame__img3{
+    position: absolute;
+    z-index: 3;
+    top: 40rem;
+    right: -10rem;
+}
+/* ============ AND OF COLLECTION ============ */
+
+
+/* ============ RATIRY ============ */
+.ratiry{
+    padding: 10rem 0;
+}
+.super__suptitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #222222;    
+}
+.ratiry__col{
+    margin-top: 10rem;
+}
+.ratiry__col__supertitle{
+    font-family: monserat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 3.2rem;  
+    color: #222222;    
+}
+.ratiry__col__title{
+    margin-top: 3rem;
+    font-family:monserat ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.6rem;  
+    color: #222222;
+}
+.ratiry__col__subtitle{
+    margin-top: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem; 
+    color: #404756;
+    max-width: 33rem;
+}
+/* ============ AND OF RATIRY ============ */
+
+
+
+/* ============ RELESAS ============ */
+.relesas{
+    padding: 10rem 0;
+}
+.relesas__col__wrapper{
+    margin-top: 23rem;
+}
+.relesas__content{
+    margin: auto;
+    max-width: 40rem;
+}
+.relesas__title{
+    margin: auto;
+    font-family: monserat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+    color: #222222;    
+}
+.relesas__supertitle{
+    margin-top: 0.9rem;
+    font-family: monserat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 3.2rem;
+    color: #222222;
+}
+.relesas__subtitle{
+    margin-top: 2rem;
+    max-width: 33rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #404756;
+}
+/* ============ AND OF RELESAS ============ */
+
+
+/* ============ TEAM ============ */
+.team__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+.team__subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #222222;    
+}
+.team__item{
+    text-align: center;
+    width: 100%;
+}
+/* ============ AND OF TEAM ============ */
+@media screen and (min-width:768px) {
+    .ratiry__columin{
+        display: flex;
+        flex-direction: row;
+    }
+    .right-col{
+        display: flex;
+        height: 70rem;
+        position: relative;
+    
+    }
+    .html{
+        font-size: 10px;
+    }
+    .hero{
+        height: 90rem;
+        background-image: url(../assets/bg-img/hero__left__img.png);
+        background-position: right top;
+        background-size: 50rem ;
+        background-repeat: no-repeat;
+    }
+    .nav__menu{
+        display: flex;
+        margin-left: auto;
+    }
+    .main__baner{
+        background-image: url(../assets/bg-img/bg-img-right.png);
+        background-position: left top;
+        background-size: 50rem ;
+        background-repeat: no-repeat;
+    }
+    .team__item{
+
+        width: calc(100% / 2 - 4rem / 2);
+    }
+}
+@media screen and (min-width:991px) {
+    .team__item{
+
+        width: calc(100% / 3 - 4rem * 2 / 3);
+    }
+}
+
+
+
+
